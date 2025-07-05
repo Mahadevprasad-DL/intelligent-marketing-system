@@ -40,7 +40,7 @@ const RequestOTP: React.FC = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const res = await axios.post("http://localhost:5000/api/auth/request-otp", { email });
+      const res = await axios.post("https://intelligent-marketing-system-63y63e6ma.vercel.app/api/auth/request-otp", { email });
       setMessage(res.data.message);
       localStorage.setItem('authEmail', email);
       navigate('/verify-otp');
