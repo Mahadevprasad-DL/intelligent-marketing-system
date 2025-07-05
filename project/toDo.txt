@@ -1,0 +1,17 @@
+to do
+1 change color of login and register page
+2 email otp using redis 
+3 live location                                                        -- done
+4 Top 5 Products (api key)
+5 Marketing Trends (amazon api key)
+6 ai campaign generator using google gemini api                       -- done
+7 ai chat subsection integrating gemeini api                           --done
+8 visual contnet vreainy image and video based on user prompts
+9 chnage full product recommandation
+10 user profile (dark mode)                                      -- later
+
+
+
+no to do
+customer journey , analytics
+trend analyzer

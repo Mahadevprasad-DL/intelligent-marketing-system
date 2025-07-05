@@ -1,0 +1,11 @@
+{
+  "type": "module",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^17.0.1",
+    "express": "^5.1.0",
+    "fetch": "^1.1.0",
+    "nodemailer": "^7.0.4",
+    "redis": "^5.5.6"
+  }
+}
