@@ -15,6 +15,14 @@ const Dashboard: React.FC = () => {
   const [localTrends, setLocalTrends] = useState<string[]>([]);
   const [loadingData, setLoadingData] = useState(true);
 
+
+    // 🟩 USER COMMENT: Used to control scrolling message if profile incomplete
+  const currentUser = JSON.parse(localStorage.getItem('currentUser') || '{}');
+  const isProfileUpdated = currentUser.fullName && currentUser.fullName.trim() !== '';
+
+  // 🟩 USER COMMENT: Show scrolling message only if profile is not updated
+  const [showScrollingText] = useState(!isProfileUpdated);
+
   useEffect(() => {
   const timer = setInterval(() => {
     setCurrentTime(new Date());
@@ -126,7 +134,6 @@ Format it as a JSON array like this:
 }, []);
 
 
-  const currentUser = JSON.parse(localStorage.getItem('currentUser') || '{}');
 
   const quickActions = [
     {
@@ -169,20 +176,34 @@ Format it as a JSON array like this:
 
       <div className="transition-all duration-300 lg:pl-80 lg:has-[.lg\\:w-20]:pl-20">
         <div className="max-w-7xl mx-auto px-4 py-8">
-
-          <div className="mb-8">
+           
+           <div className="mb-8">
             <div className="flex items-center mb-4">
               <div className="w-12 h-12 bg-gradient-to-r from-blue-500 to-purple-600 rounded-2xl flex items-center justify-center mr-4">
                 <Sparkles className="w-6 h-6 text-white" />
               </div>
               <div>
-                <h1 className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-blue-600 bg-clip-text text-transparent">
-                  Welcome back, {currentUser.fullName || 'User'}!
-                </h1>
+                {showScrollingText ? (
+                  <div className="text-xl font-semibold text-black-700 animate-marquee whitespace-nowrap overflow-hidden">
+                    <span className="inline-block min-w-full">
+                      🚀 Please update your user profile first.
+                    </span>
+                  </div>
+                ) : (
+                  <h1 className="text-4xl font-bold bg-gradient-to-r from-gray-900 to-blue-600 bg-clip-text text-transparent">
+                    Welcome back, {currentUser.fullName || 'User'}!
+                  </h1>
+                )}
                 <p className="text-gray-600 text-lg">Ready to transform your marketing with AI?</p>
               </div>
             </div>
           </div>
+
+
+
+
+
+          
 
           {/* Real-Time Data */}
           <div className="bg-gradient-to-r from-blue-600 via-purple-600 to-pink-600 rounded-3xl p-8 text-white mb-8 shadow-2xl relative overflow-hidden">
