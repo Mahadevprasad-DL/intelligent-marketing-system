@@ -7,58 +7,31 @@ An AI-powered all-in-one marketing automation platform that empowers businesses 
 
 ## 🌟 Features
 
-### 🔐 User Registration & Authentication
-- Secure email-based OTP verification
-- Collects detailed user data: name, email, phone, industry, country, state, city, user type, lead source, estimated budget, and expected buying time
-- Strong password validation for account safety
-
-### 📊 Dashboard
-- Displays user’s live location, date, and time
-- Shows top 5 local market trends
-- Predicts upcoming market trends using AI based on historical data
-
-### 📣 Campaign Management
-- AI-generated email campaigns, PPC ads, social media posts, and content marketing
-- Create, configure, and launch campaigns seamlessly
-
-### 💬 AI Chat Assistant
-- ChatGPT-like assistant for instant marketing help and business guidance
-
-### 📈 Customer Journey Analytics
-- Visualize key insights with filters like time range, industry, and user type
-- Charts and reports: Login Timeline, Budget Timeline, Session Duration, and more
-
-### 📉 Analytics Dashboard
-- Lead Source Performance, Industry Distribution, Budget Segments, Journey Stages
-- Custom input for in-depth performance analysis
+| Feature | Description |
+|--------|-------------|
+| 🔐 **User Registration & Authentication** | - Secure email-based OTP verification<br>- Collects detailed user data (name, email, phone, location, etc.)<br>- Strong password validation |
+| 📊 **Dashboard** | - Displays live location, date, time<br>- Shows top 5 local market trends<br>- AI-based future trend prediction |
+| 📣 **Campaign Management** | - AI-generated emails, PPC ads,content and many more<br>- Create, configure, launch campaigns seamlessly |
+| 💬 **AI Chat Assistant** | - ChatGPT-like assistant for real-time help and marketing advice |
+| 📈 **Customer Journey Analytics** | - Filters like time range, industry, user type<br>- Visuals: Login Timeline, Budget Timeline, Session Duration |
+| 📉 **Analytics Dashboard** | - Displays Lead Source, Industry Distribution, Budget, and Stages<br>- Custom input for detailed reporting |
+| 🧠 **AI Product Recommendations** | - Suggests tools based on user behavior and business profile |
+| 👤 **User Profile** | - Edit details, upload photo, dark mode toggle, password reset |
+| 📊 **AI Trend Analyzer** | - Real-time trending hashtags, sentiment, and activity analysis |
+| 📍 **Live Statistics** | - Active Campaigns<br>- Total Users<br>- Conversion Rate<br>- Revenue Growth |
 
 
-### 🧠 AI Product Recommendations
-- Suggests marketing tools based on user business profile and behavior
-
-### 👤 User Profile
-- Edit profile, upload image, toggle dark mode, reset password, manage notifications
-
-### 📊 AI Trend Analyzer
-- Real-time analysis of trending hashtags, market sentiment, and platform activity
-
-### 📍 Live Statistics
-- Displays real-time data on:
-  - Active Campaigns
-  - Total Users
-  - Conversion Rate
-  - Revenue Growth
 
 ---
 
 ## 🧩 Problem Solved
 
-- Eliminates manual marketing complexity
-- Provides AI-powered, personalized campaign generation
-- Centralizes all marketing tools in one platform
-- Turns user data into actionable insights
-- Enhances engagement with real-time analytics and AI chat
-- Simplifies customer journey tracking and reporting
+- Eliminates manual marketing complexity  
+- Provides AI-powered, personalized campaign generation  
+- Centralizes all marketing tools in one platform  
+- Turns user data into actionable insights  
+- Enhances engagement with real-time analytics and AI chat  
+- Simplifies customer journey tracking and reporting  
 
 ---
 
@@ -70,20 +43,20 @@ An AI-driven, fully integrated platform that personalizes insights, automates co
 
 ## 💻 Tech Stack
 
-- **Frontend:** React.js  TypeScript ,(MERN Stack)
-- **Backend:** Node.js
-- **Database:**  Redis
-- **Authentication:** Email OTP system, JWT (JSON Web Tokens)
-- **Styling:** CSS, Tailwind CSS / Bootstrap
-- **AI Integration:** OpenAI API / Custom AI models
-- **Deployment:** Vercel / Netlify
+- **Frontend:** React.js, TypeScript (MERN Stack)  
+- **Backend:** Node.js  
+- **Database:** Redis  
+- **Authentication:** Email OTP system, JWT (JSON Web Tokens)  
+- **Styling:** CSS, Tailwind CSS / Bootstrap  
+- **AI Integration:** OpenAI API / Custom AI models  
+- **Deployment:** Vercel / Netlify  
 
 ---
 
 ## 📎 Demo
 
-- 🔗 **Live Demo:** [Click here](https://intelligent-marketing-system.vercel.app/)
-- 🎥 **Project Video:** [Click here](https://drive.google.com/file/d/1ueAmCXKfT9YHHfwMeUv-cekm72fY3q0-/view)
+- 🔗 **Live Demo:** [Click here](https://intelligent-marketing-system.vercel.app/)  
+- 🎥 **Project Video:** [Click here](https://drive.google.com/file/d/1ueAmCXKfT9YHHfwMeUv-cekm72fY3q0-/view)  
 
 ---
 
@@ -96,17 +69,9 @@ git clone https://github.com/Mahadevprasad-DL/ai-marketing-platform.git
 # Install dependencies
 npm install
 
-# Run the project
+# Run the frontend
 npm start
 
 # Backend 
-
-#Run the project
-Node index.js
-
-
-
-
-
-
-
+# Run the backend project
+node index.js
