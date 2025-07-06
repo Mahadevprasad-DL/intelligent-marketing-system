@@ -82,7 +82,7 @@ An AI-driven, fully integrated platform that personalizes insights, automates co
 
 ## 📎 Demo
 
-- 🔗 **Live Demo:** [https://your-demo-link.com](https://your-demo-link.com)
+- 🔗 **Live Demo:** [Click here](https://intelligent-marketing-system.vercel.app/)
 - 🎥 **Project Video:** [Watch Demo Video](https://your-demo-video-link.com)
 
 ---
