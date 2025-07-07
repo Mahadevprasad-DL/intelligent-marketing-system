@@ -68,19 +68,19 @@ An AI-powered platform that integrates trend analysis, campaign generation, user
 
 
 ### 🔐 Register Page  
-![Login Page](screenshots/login.png)
+![Image](https://github.com/user-attachments/assets/f8ba23f8-6018-40d7-98c7-17451b6e405d)
 
 ### 📊 Dashboard  
-![Dashboard](screenshots/dashboard.png)
+![Image](https://github.com/user-attachments/assets/96d51b26-22e7-4688-9842-5897aad89077)
 
-### 📣 Campaign Builder  
-![Campaign Builder](screenshots/campaign.png)
+### 📣 AI Trend Analyzer  
+![Image](https://github.com/user-attachments/assets/e5fd3076-bfcb-474e-bc15-878a6548fdb6)
 
-### 📈 Analytics Panel  
-![Analytics Panel](screenshots/analytics.png)
+### 📈 Customer Journey Analytics  
+![Image](https://github.com/user-attachments/assets/061b3082-f276-4902-9139-52c5d9161b86)
 
-### 💬 AI Assistant  
-![AI Assistant](screenshots/chat-assistant.png)
+### 💬 User Profile  
+![Image](https://github.com/user-attachments/assets/f00fabb7-b956-46db-b355-500792048bb1)
 
 > 📝 *Note: I have many more screens, but here I’ve included just a few of the main ones to give you an idea of the interface and features.*
 
