@@ -19,7 +19,6 @@ An AI-powered all-in-one marketing automation platform that empowers businesses 
 | 👤 **User Profile Management** | - Update name, contact, photo, business details<br>- Toggle dark/light mode, manage account security |
 | 📊 **AI Trend Analyzer** | - Analyzes current trending hashtags and market sentiment in real-time<br>- Provides suggestions for trend-aligned campaigns |
 | 📍 **Live Statistics** | - Active campaigns<br>- Total users<br>- Conversion rate<br>- Revenue growth (calculated dynamically) |
-| 📌 **Smart Campaign Scheduler** | - Schedule campaigns in advance<br>- Get time-slot suggestions based on audience engagement prediction |
 | 📬 **OTP Verification System** | - Email-based OTP login system for secure access<br>- Prevents unauthorized entries and bots |
 | 🔔 **Real-Time Notifications** | - Instant alerts on campaign success, failures, and user milestone events |
 | 📡 **Location-Based Personalization** | - AI customizes campaign suggestions based on user's region and audience behavior |
@@ -65,11 +64,36 @@ An AI-powered platform that integrates trend analysis, campaign generation, user
 
 ---
 
+## 🖼️ Screenshots
+
+
+### 🔐 Register Page  
+![Login Page](screenshots/login.png)
+
+### 📊 Dashboard  
+![Dashboard](screenshots/dashboard.png)
+
+### 📣 Campaign Builder  
+![Campaign Builder](screenshots/campaign.png)
+
+### 📈 Analytics Panel  
+![Analytics Panel](screenshots/analytics.png)
+
+### 💬 AI Assistant  
+![AI Assistant](screenshots/chat-assistant.png)
+
+> 📝 *Note: I have many more screens, but here I’ve included just a few of the main ones to give you an idea of the interface and features.*
+
+---
+
 ## 🚀 Getting Started
 
 ```bash
 # Clone the repository
 git clone https://github.com/Mahadevprasad-DL/ai-marketing-platform.git
+
+# Navigate to project directory
+cd ai-marketing-platform
 
 # Install dependencies
 npm install
