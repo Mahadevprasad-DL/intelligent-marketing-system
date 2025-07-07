@@ -21,11 +21,9 @@ An AI-powered all-in-one marketing automation platform that empowers businesses 
 | 📍 **Live Statistics** | - Active campaigns<br>- Total users<br>- Conversion rate<br>- Revenue growth (calculated dynamically) |
 | 📌 **Smart Campaign Scheduler** | - Schedule campaigns in advance<br>- Get time-slot suggestions based on audience engagement prediction |
 | 📬 **OTP Verification System** | - Email-based OTP login system for secure access<br>- Prevents unauthorized entries and bots |
-| 🗃️ **Custom Report Generator** | - Auto-generate marketing reports from filters<br>- Export insights and performance data for presentations |
 | 🔔 **Real-Time Notifications** | - Instant alerts on campaign success, failures, and user milestone events |
 | 📡 **Location-Based Personalization** | - AI customizes campaign suggestions based on user's region and audience behavior |
 | 🔄 **Activity Timeline** | - Shows user login, logout, campaign actions, and system messages in chronological order |
-| 🧪 **A/B Campaign Testing** | - Create two campaign variations<br>- Automatically track which version performs better |
 | 🎯 **Lead Qualification Engine** | - Scores leads based on budget, interest, and engagement<br>- Prioritizes hot prospects for sales follow-up |
 | 🛡️ **Security & Privacy Controls** | - Session expiration, hashed passwords, and role-based access (admin/user)<br>- GDPR-friendly user data management |
 
